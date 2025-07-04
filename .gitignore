@@ -1,0 +1,24 @@
+# Ignore simulation outputs
+*.vcd
+*.wlf
+*.log
+
+# Ignore ModelSim and Icarus-generated folders
+work/
+output/
+ivl_output/
+
+# Ignore Quartus build folders
+db/
+incremental_db/
+output_files/
+simulation/modelsim/
+
+# Ignore temporary files
+*~
+*.swp
+*.bak
+
+# Allow source files
+!*.v
+!*.vh
